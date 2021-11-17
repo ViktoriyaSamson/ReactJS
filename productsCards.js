@@ -1,5 +1,5 @@
 'use strict';
-
+ 
 const pathToImages = 'images';
 const pathToProductsImages = `${pathToImages}/featured`;
 const featuredItemsEl = document.querySelector('.featuredItems');

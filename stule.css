@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+}
+
+.background {
+    height: auto;
+    background: url(img/fon.png) right bottom no-repeat;
+}
+
+.header {
+    height: 80px;
+    padding: 18px 16px;
+    box-sizing: border-box;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 1600px) {
+    .container {
+        margin: 0 auto;
+        width: 1140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+.header i {
+    color: #e8e8e8;
+}
+
+.left_container {
+    padding-left: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.userIcon {
+    height: 50px;
+    width: 50px;
+}
+.text {
+  font-family: FANTASY;
+  font-size: 26px;
+}
+.About_project {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.all_text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hr {
+    width: auto;
+    background-color: rgb(142, 182, 169);
+}
+
+.content {
+    height: 800px;
+}
+
+.right_container {
+    float: right;
+    height: 30px;
+    width: 30px;
+}
+
+.catalog_flowers {
+    margin: 50px 32px 50px 32px;
+display: flex;
+justify-content: space-between;
+}
+
+@media (min-width: 1600px) {
+    .catalog_flowers {
+        margin: 0 auto;
+        width: 1140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+
+.flowers {
+    width: 270px;
+    height: 500px;
+
+}
+
+
+
+.contacts_block{
+    width: 1140px;
+    margin: 50px 32px 50px 32px;
+display: flex;
+justify-content: space-between;
+}
+
+@media (min-width: 1600px) {
+    .catalog_flowers {
+        margin: 0 auto;
+        width: 1140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+
+.adress {
+height: 500px;
+width: 400px;
+padding: 10px;
+float: left;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.send_message {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+    float: right;
+   
+}
+
+.maps {
+    width: auto;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe {
+    background-size: cover;
+    padding-top: 64px;
+    padding-bottom: 109px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+@media (min-width: 1200px) {
+    .subscribe {
+        padding-top: 97px;
+        padding-bottom: 126px;
+    }
+
+    .subscribe .container {
+        margin: 0 auto;
+        width: 1140px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.subscribeLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribeUserText {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222224;
+    max-width: 330px;
+}
+
+.subscribeRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 65px;
+}
+
+@media (min-width: 1200px) {
+    .subscribeRight {
+        margin-top: initial;
+    }
+}
+
+.subscribeTitle {
+    font-weight: 700;
+    font-size: 24px;
+    color: #222224;
+}
+
+.subscribeTitle,
+.subscribeText {
+    max-width: 271px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.subscribeForm {
+    height: 47px;
+}
+
+.subscribeForm input {
+    height: inherit;
+    background: #e1e1e1;
+    border: none;
+    padding: 6px 21px;
+    box-sizing: border-box;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    float: left;
+    width: 185px;
+}
+
+.subscribeForm input::-webkit-input-placeholder {
+    color: #222224;
+    font-family: inherit;
+    opacity: 0.67;
+}
+.subscribeForm input::-moz-placeholder {
+    color: #222224;
+    font-family: inherit;
+    opacity: 0.67;
+}
+.subscribeForm input:-ms-input-placeholder {
+    color: #222224;
+    font-family: inherit;
+    opacity: 0.67;
+}
+.subscribeForm input:-moz-placeholder {
+    color: #222224;
+    font-family: inherit;
+    opacity: 0.67;
+}
+
+.subscribeForm button {
+    height: inherit;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 17px;
+    background: #21352e;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    padding: 0 17px;
+}

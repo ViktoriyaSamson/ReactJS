@@ -1,5 +1,5 @@
 import './Message.css';
 
 export const Message = ({ name }) => {
-    return <div className="colorText">Hi, {name}</div>
+    return <div className="colorText">You, {name}</div>
 };
